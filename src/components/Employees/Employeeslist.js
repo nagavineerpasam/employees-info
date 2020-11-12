@@ -28,6 +28,8 @@ const employeeslist = (props) => {
    return (
       <div className="box">
          <h1>Employees List</h1>
+         <p>Click delete icon to delete</p>
+         <p>Tap on name to edit</p>
          <form onSubmit={props.submitname}>
             <input
                className="inp"
